@@ -1,11 +1,11 @@
 version: '3'
 services:
   backend:
-    image: ghcr.io/misacademy/three-tier-app-backend:latest
+    image: 027419661768.dkr.ecr.us-east-1.amazonaws.com/three-tier-app-backend:latest
     ports:
       - "5001:5000"
   frontend:
-    image: ghcr.io/misacademy/three-tier-app-frontend:latest
+    image: 027419661768.dkr.ecr.us-east-1.amazonaws.com/three-tier-app-frontend:latest
     ports:
       - "3001:3000"
   mongodb:
